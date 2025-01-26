@@ -1,0 +1,281 @@
+.searchAndNew{
+    width: 855px;
+    margin-left: 21px !important;
+    margin-right: 21px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topSection{
+    width: 95% !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    width: inherit;
+}
+
+.printAndExport{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.create,.print,.exportToExcel{
+    display: block;
+    width: fit-content;
+}
+.create a p{
+    width: fit-content;
+    padding: 6px 12px !important;
+    background-color: var(--button-backgroundColor-1);
+    color: var(--button-fontColor-1);
+   font-size: var(--font-size-lg);
+    border: 1px solid var(--button-border-color-1);
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+
+.create a p:hover{
+    background-color: var(--hover-button-backgroundColor-1);
+    color: var(--hover-button-fontColor-1);
+}
+
+.print a{
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    width: fit-content;
+    padding: 6px 12px !important;
+    color: var(--button-fontColor-2);
+   font-size: var(--font-size-lg);
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+
+.print a:hover{
+    color: var(--hover-button-fontColor-2);
+    background-color: var(--hover-button-backgroundColor-2);
+}
+
+.exportToExcel a p{
+    width: fit-content;
+    padding: 6px 12px !important;
+    background-color: var(--button-backgroundColor-1);
+    color: var(--button-fontColor-1);
+    font-size: var(--font-size-lg);
+    border: 1px solid var(--button-border-color-1);
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+
+.exportToExcel a p:hover{
+    background-color: var(--hover-button-backgroundColor-1);
+    color: var(--hover-button-fontColor-1);
+}
+
+.bottomSection{
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    background: #F2F2F2;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    margin-top: 16px !important;
+    margin-bottom: 16px !important;
+    padding: 8px 16px !important;
+}
+
+.inputSearch{
+    width: 50%;
+    border: unset;
+    border-radius: unset;
+    margin-top: unset;
+    padding: unset;
+}
+
+.searchFaild{
+    width: 100%;
+    height: 45px !important;
+    border: unset;
+    background-color: unset;
+    outline: none;
+}
+
+.dataSearch{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.startDateSearch{
+    color:var(--button-fontColor-2);
+    cursor: pointer;
+    padding: 6px !important;
+}
+
+.startDateSearch:hover{
+    background-color: var(--hover-button-backgroundColor-2);
+    color:var(--hover-button-fontColor-2);
+    border-radius: 8px !important;
+}
+
+.endDateSearch{
+    color:var(--button-fontColor-2);
+    cursor: pointer;
+    padding: 6px !important;
+}
+
+.endDateSearch:hover{
+    background-color: var(--hover-button-backgroundColor-2);
+    color:var(--hover-button-fontColor-2);
+    border-radius: 8px !important;
+}
+
+.startDateSearch p{
+   
+    font-style: normal;
+    font-weight: 600;
+    font-size: var(--font-size-sm);
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+.startDateSearch .startDate p{
+   
+    font-style: normal;
+    font-weight: 600;
+   font-size: var(--font-size-sm);
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+.endDateSearch p{
+   
+    font-style: normal;
+    font-weight: 600;
+   font-size: var(--font-size-sm);
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+.endDateSearch .endDate p{
+   
+    font-style: normal;
+    font-weight: 600;
+   font-size: var(--font-size-sm);
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+.FilterOfStatusButton .btn{
+    color:var(--button-fontColor-2);
+    background-color: unset;
+    border: unset;
+    font-style: normal;
+    font-weight: 600;
+    font-size: var(--font-size-sm);
+    line-height: 24px;
+    text-transform: capitalize;
+    padding: 6px !important;
+}
+
+.FilterOfStatusButton .btn:hover{
+    background-color: var(--hover-button-backgroundColor-2);
+    color:var(--hover-button-fontColor-2);
+}
+
+.dropdown-menu.show {
+    display: flex;
+    padding: 8px !important;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.dropdown-menu li{
+    padding: 4px !important;
+}
+
+.dropdown-menu li:hover{
+background-color: var(--main-color3);
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    .searchAndNew {
+        width: 776px;
+    }
+    .topSection{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items:end;
+    }
+    .printAndExport{
+        flex-direction: column;
+    }
+    .create a p{
+       font-size: var(--font-size-sm);
+    }
+    
+    .print a{
+       font-size: var(--font-size-sm);
+    }
+    
+    .exportToExcel a p{
+       font-size: var(--font-size-sm);
+    }
+ 
+
+}
+
+@media screen and (max-width: 425px) {    
+    .bottomSection{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 8px;
+        background: unset;
+        box-shadow: unset;
+        border-radius: unset;
+        margin-top: unset !important;
+        padding: unset !important;
+    }
+
+    .inputSearch{
+        width: 100%;
+        border: 1px solid var(--main-color2);
+        border-radius: 8px;
+        margin-top: 8px !important;
+        padding: 6px !important;
+    }
+    .dataSearch {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+}
+
+@media screen and (max-width: 320px) {
+
+}

@@ -1,0 +1,127 @@
+/* *{
+    --color1: #245A40;
+    --color2: #BEC011;
+    --color3: #F5F5F5;
+    --color4:#FFFFFF;
+    --color5: #648C75;
+    --color6:#D9D389;
+    --color7: #720303;
+    --background1: #245A40;
+    --background2: #BEC011;
+    --background3: #F5F5F5;
+    --background4:#FFFFFF;
+    --background5:#BFB4113D;
+    --background6: #648C75;
+    --background7: #720303;
+    --background8:#D9D389;
+
+
+    --linear-gradient1: linear-gradient(to top, #D9D38900, #D9D389, #D9D389, #D9D38900);
+} */
+*{
+    /*start main color*/
+
+    --main-color1: #BEC011;
+    --main-color2: #245A40;
+    --main-color3: #F5F5F5;
+
+    /*end main color*/
+
+    /*start background and font color*/
+    /*style 1*/
+    --background-color1: #BEC011;
+    --border-color1: #BEC011; 
+    --main-color-font1: #245A40;
+    --sub-color-font1: #648C75;
+    /*style 2*/
+    --background-color2: #F5F5F5;
+    --border-color2: #BEC011; 
+    --main-color-font2: #245A40;
+    --sub-color-font2: #648C75;
+    /*style 3*/
+    --background-color3: #245A40;
+    --border-color3: #245A40; 
+    --color-font3: #F5F5F5;
+    /*style 4*/
+    --background-color4: #720303;
+    --border-color4: #720303; 
+    --color-font4: #ffffff;
+    /*style 5*/
+    --background-color5: #ffffff00;
+    --border-color5: #ffffff00; 
+    --main-color-font5: #245A40;
+    --sub-color-font5: #648C75;
+    /*style 6*/
+    --background-color6: #648C75;
+    --border-color6: #648C75; 
+    --color-font6: #F5F5F5;
+    /*end background and font color*/
+    
+    /*start button background and font color */
+    /*button style 0*/
+    --button-backgroundColor-0: #245A40;
+    --button-border-color-0: #245A40;
+    --button-fontColor-0: #F5F5F5;
+    --hover-button-backgroundColor-0: #F5F5F5;
+    --hover-button-border-color-0: #245A40;
+    --hover-button-fontColor-0: #245A40;
+    /*button style 1*/
+    --button-backgroundColor-1: #245A40;
+    --button-border-color-1: #BEC011;
+    --button-fontColor-1: #BEC011;
+    --hover-button-backgroundColor-1: #BEC011;
+    --hover-button-border-color-1: #245A40;
+    --hover-button-fontColor-1: #245A40;
+    /*button style 2*/
+    --button-backgroundColor-2: #ffffff00;
+    --button-border-color-2: #245A40;
+    --button-fontColor-2: #245A40;
+    --hover-button-backgroundColor-2: #245A40;
+    --hover-button-border-color-2: #245A40;
+    --hover-button-fontColor-2: #ffffff;
+    /*button style 3*/
+    --button-backgroundColor-3: #BEC011;
+    --button-border-color-3: #BEC011;
+    --button-fontColor-3: #245A40;
+    --hover-button-backgroundColor-3: #245A40;
+    --hover-button-border-color-3: #245A40;
+    --hover-button-fontColor-3: #BEC011;
+    /*button style 4*/
+    --button-backgroundColor-4: #BEC011;
+    --button-border-color-4: #BEC011;
+    --button-fontColor-4: #F5F5F5;
+    --hover-button-backgroundColor-4: #F5F5F5;
+    --hover-button-border-color-4: #BEC011;
+    --hover-button-fontColor-4: #BEC011;
+    /*button style 5*/
+    --button-backgroundColor-5: #648C75;
+    --button-border-color-5: #648C75;
+    --button-fontColor-5: #F5F5F5;
+    --hover-button-backgroundColor-5: #F5F5F5;
+    --hover-button-border-color-5: #648C75;
+    --hover-button-fontColor-5: #648C75;
+    /*button style 6*/
+    --button-backgroundColor-6: #720303;
+    --button-border-color-6: #720303;
+    --button-fontColor-6: #F5F5F5;
+    --hover-button-backgroundColor-6: #F5F5F5;
+    --hover-button-border-color-6: #720303;
+    --hover-button-fontColor-6: #720303;
+    /*end button background and font color*/
+    
+    /*start gradint color*/
+    --gradient-main-color: #D9D38900;
+    --gradient-second-color: #D9D389;
+    --linear-gradient1: linear-gradient(to top, var(--gradient-main-color), var(--gradient-second-color), var(--gradient-second-color), var(--gradient-main-color));
+    /*end gradint color*/
+
+    /*start table color*/
+    --table-head-background-color:  #F5F5F5;
+    --table-head-font-color:  #245A40;
+    --table-row-odd-backgrount-color: #BEC011;
+    --table-row-odd-font-color: #245A40;
+    --table-row-even-backgrount-color: #F5F5F5;
+    --table-row-even-font-color: #648C75;
+    /*end table color*/
+
+}

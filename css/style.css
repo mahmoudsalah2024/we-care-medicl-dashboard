@@ -1,0 +1,112 @@
+@import url(../css/color.css);
+@import url(../css/font-size.css);
+@import url(../css/sa.css);
+@import url(../css/header.css);
+@import url(../css/main.css);
+@import url(../css/searchAndNew.css);
+@import url(../css/infoCard.css);
+@import url(../css/mainScreen.css);
+@import url(../css/subMainScreen.css);
+@import url(../css/popupWindow.css);
+@import url(../css/calender.css);
+@import url(../css/formElement.css);
+@import url(../css/icon.css);
+
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    border-radius: 50px !important;
+}
+
+::-webkit-scrollbar-thumb {
+    height: 187px !important;
+    background-color: var(--main-color2) !important;
+}
+
+::-webkit-scrollbar-track {
+    background-color: unset !important;
+}
+
+html, 
+body {
+    background-color: var(--main-color3);
+    font-family: Cairo;
+    height: 100% !important;
+}
+
+.my-body-noscroll-class {
+    overflow: hidden;
+}
+
+a{
+    text-decoration-line: none;
+    cursor: pointer !important;
+}
+
+ul{
+    list-style: none;
+}
+
+.hideSection{
+    animation: hideMenu 3s;
+    visibility:hidden;
+}
+.showSection{
+    animation: showMenu 1s;
+
+
+}
+
+.showOverlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.733);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000000;
+}
+
+@keyframes showMenu {
+    from {
+        top: 500px;
+    }
+
+    to {
+        top: 343px;
+    }
+}
+
+@keyframes hideMenu {
+    from {
+        top: 343px;
+    }
+
+    to {
+        top: 500px;
+    }
+}
+
+@keyframes showHeader {
+    from {
+        left: -300px;
+    }
+
+    to {
+        left: 0px;
+    }
+}
+
+@keyframes hideHeader {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: -300px;
+    }
+}
